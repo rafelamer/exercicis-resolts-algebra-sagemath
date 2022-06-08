@@ -30,6 +30,6 @@ estudiants de Matemàtiques, Física i, en general, a tots aquells
 que hagin de cursar la matèria d'Àlgebra Lineal.
 
 Al web [https://mce.upc.edu](https://mce.upc.edu) podreu trobar una versió en
-PDF d'aquests exercicis resolts.
+PDF d'aquests exercicis resolts i diferent material sobre l'assignatura.
 
 Rafel Amer i Vicenç Sales

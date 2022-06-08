@@ -29,4 +29,7 @@ estudiants de Graus d'Enginyeria, també poden ser útils als
 estudiants de Matemàtiques, Física i, en general, a tots aquells
 que hagin de cursar la matèria d'Àlgebra Lineal.
 
+Al web [https://mce.upc.edu](https://mce.upc.edu) podreu trobar una versió en
+PDF d'aquests exercicis resolts.
+
 Rafel Amer i Vicenç Sales

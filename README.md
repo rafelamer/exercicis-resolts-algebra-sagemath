@@ -21,8 +21,7 @@ solucions alternatives a les donades.
 
 Els temes que es tracten són habituals en qualsevol curs
 d'Àlgebra Lineal i s'ha dedicat especial atenció als seus aspectes
-geomètrics. Així, els dos últims capítols estan dedicats a la Geometria lineal
-i a l'estudi de les còniques i les quàdriques.
+geomètrics.
 
 Encara que, inicialment, els exercicis estiguin pensats per a
 estudiants de Graus d'Enginyeria, també poden ser útils als

@@ -160,7 +160,7 @@ def run_asy_file(asy_file, img_file=None, fmt="png"):
     if img_file is None:
         img_file = asy_file[:-3] + fmt
           
-    asy_proc = subprocess.Popen(["asy", "-noGPUindexing", "-noView","-f", fmt,
+    asy_proc = subprocess.Popen(["asy", "-noView","-f", fmt,
                                  "-o", img_file, asy_file],
                                 stdout=subprocess.PIPE,
                                 stderr=subprocess.PIPE)

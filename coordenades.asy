@@ -418,7 +418,6 @@ void ParabolaSimple(pair v,
 
 void Parabola(pair v,
               pair f,
-              int d=1,
               int x=10,
               int y=8,
               real scaled=1.0)
@@ -433,7 +432,7 @@ void Parabola(pair v,
   picture rp = Coordenades(-x,x,-y,y,color=red,base=true,quadricula=false,scaled=scaled);
   pair s = f - v;
   real par = 2 * length(s);
-  if(d < 0)
+  if(s.y < 0 || (s.y == 0 && s.x < 0))
   {
   	s = -s;
   	par = -par;

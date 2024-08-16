@@ -158,8 +158,8 @@ def run_asy_file(asy_file, img_file=None, fmt="png"):
     if not os.path.exists(asy_file):
         raise IOError("File not found: " + asy_file)
     if img_file is None:
-        img_file = asy_file[:-3] + fmt
-          
+        img_file = asy_file[:-4] ##### + fmt
+
     asy_proc = subprocess.Popen(["asy", "-noView","-f", fmt,
                                  "-o", img_file, asy_file],
                                 stdout=subprocess.PIPE,
@@ -171,9 +171,10 @@ def run_asy_file(asy_file, img_file=None, fmt="png"):
     asy_stdout = asy_proc.stdout.read()
     
     if fmt == "svg":
-        return SVG(filename=img_file), asy_stdout
+        return SVG(filename=img_file + '.' + fmt), asy_stdout
 
     if fmt == "pdf":
+        img_file = asy_file[:-3] + "pdf"
         svg_file = asy_file[:-3] + "svg"
         svg_proc = subprocess.Popen(["pdf2svg",img_file,svg_file],
                                 stdout=subprocess.PIPE,
